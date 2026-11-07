@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Environments and secrets ---
+.venv/
+venv/
+.env
+
+# --- Editor and OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Project data (never commit; regenerate from manifests) ---
+data/
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.csv
+
+# --- Large or regenerable outputs ---
+results/raw/
+models/
+*.joblib
+*.lgb
+logs/
