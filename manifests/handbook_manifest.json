@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-11-07T23:52:31.856778+00:00",
+  "source_repo": "https://github.com/Fraud-Detection-Handbook/simulated-data-raw",
+  "source_commit": "6e67dbd0a3bfe0d7ec33abc4bce5f37cd4ff0d6a",
+  "n_source_files": 183,
+  "source_listing_sha256": "66cf07c3310fbc96b7132fd4f904575f9dab1a139228775b6fbbca9fb46d90b2",
+  "input_was_time_sorted": true,
+  "rows": 1754155,
+  "columns": {
+    "TRANSACTION_ID": "int64",
+    "TX_DATETIME": "datetime64[ns]",
+    "CUSTOMER_ID": "object",
+    "TERMINAL_ID": "object",
+    "TX_AMOUNT": "float64",
+    "TX_TIME_SECONDS": "object",
+    "TX_TIME_DAYS": "object",
+    "TX_FRAUD": "int64",
+    "TX_FRAUD_SCENARIO": "int64"
+  },
+  "date_min": "2018-04-01 00:00:31",
+  "date_max": "2018-09-30 23:59:57",
+  "n_customers": 4990,
+  "n_terminals": 10000,
+  "fraud_rate": 0.008369271814634397,
+  "parquet_file": "data\\parquet\\handbook_transactions.parquet",
+  "parquet_sha256": "41100c970f483445f829dbbea1beb29aff5f4638177d9b3ea6c6afa4a6e2b720",
+  "content_hash": "20bd667cc49b8a7a",
+  "warnings": [
+    "4990 customers, expected 5000"
+  ],
+  "versions": {
+    "python": "3.13.7",
+    "pandas": "3.1.1",
+    "pyarrow": "26.0.1",
+    "os": "Windows-11-10.0.26200-SP0"
+  }
+}
