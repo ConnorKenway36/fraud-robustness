@@ -26,7 +26,7 @@ and the retraining study are future work.
 
 - Primary dataset: Fraud Detection Handbook simulator (synthetic).
 - Source: https://github.com/Fraud-Detection-Handbook/simulated-data-raw
-- Source commit hash: <fill in after cloning>
+- Source commit hash: <6e67dbd0a3bfe0d7ec33abc4bce5f37cd4ff0d6a>
 - Data is not stored in this repository. To recreate the folders:
 
   ```bash
